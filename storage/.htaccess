@@ -1,0 +1,10 @@
+<Files .htaccess>
+    Order Deny,Allow
+    Deny from all
+</Files>
+
+<FilesMatch ".*">
+    Order Deny,Allow
+    Deny from all
+    Allow from localhost
+</FilesMatch>
